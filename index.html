@@ -4,25 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <title>Web Developer</title>
 </head>
 <body>
-    <header class="topBar">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Links</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+    <header class="d-flex justify-content-center py-3">
+        <nav class="navbar fixed-top navbar-light">
+            <div class="container-fluid shadow-sm p-2 bg-body rounded">
+                <div class="container">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header> 
-    <section class="Banner">
-        <img src="luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="" id="imgBanner">
-        <h1>Web Developer Front-End</h1>
-        <h2>Cabral</h2>
-        <button class="aboutBtn">About me</button>
-    </section>
+
+    </header>
+    <div class="card bg-dark text-light">
+        <img src="luca-bravo-XJXWbfSo2f0-unsplash.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay p-5 shadow-sm">
+          <h1 class="card-title display-5"> Web Developer Front-End</h1>
+        </div>
+      </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>
