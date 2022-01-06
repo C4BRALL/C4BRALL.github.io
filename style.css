@@ -1,17 +1,5 @@
-/* body {
-    min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    backdrop-filter: blur(4px);
-} */
-
 body {
     background-color: rgba(255, 251, 252, alpha);
-    /* min-height: 40px; */
-    /* max-height: 100vh; */
     background-image: url(./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,5 +8,38 @@ body {
 }
 
 .shadow-drop {
-    text-shadow: 2px 2px 8px black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.shadow-content {
+    padding: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 9px 2px black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center-around {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fab {
+    font-size: 7em;
+    color: transparent;
+    background: linear-gradient(to left, #0082c8, #0082c8, #667db6);
+    -webkit-background-clip: text;
+}
+
+.shadow-icons {
+    background-color: white;
+    padding: 21px;
+    margin: 5px;
+    border-radius: 350px;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
 }
