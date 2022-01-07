@@ -30,7 +30,7 @@ body {
 }
 
 .fab {
-    font-size: 7em;
+    font-size: 4em;
     color: transparent;
     background: linear-gradient(to left, #0082c8, #0082c8, #667db6);
     -webkit-background-clip: text;
@@ -38,8 +38,8 @@ body {
 
 .shadow-icons {
     background-color: white;
-    padding: 21px;
-    margin: 5px;
-    border-radius: 350px;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 100%;
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
 }
