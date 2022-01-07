@@ -8,13 +8,13 @@ body {
 }
 
 .shadow-drop {
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 2px 3px #000000;
 }
 
 .shadow-content {
     padding: 0px;
     border-radius: 4px;
-    box-shadow: 1px 1px 9px 2px black;
+    box-shadow: 1px 1px 15px 1px black;
 }
 
 .center {
@@ -29,19 +29,23 @@ body {
     flex-wrap: wrap;
 }
 
-.fab {
-    font-size: 4em;
+.icons {
+    font-size: 3em;
     color: transparent;
-    background: linear-gradient(to left, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to left,#000000, #0082c8, #0082c8, #667db6);
     -webkit-background-clip: text;
 }
 
+.social {
+    font-size: 28px;
+}
+
 .shadow-icons {
-    background-color: white;
-    padding: 20px;
+    /* background-color: white; */
+    padding: 23px;
     margin: 0px;
-    border-radius: 100%;
-    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
 }
 
 .container-box {
@@ -51,4 +55,8 @@ body {
     height: 480px;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
+}
+
+.card > row > col-md-4 img:nth-child(1) {
+    flex-grow: 1;
 }

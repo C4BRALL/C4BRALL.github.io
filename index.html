@@ -51,7 +51,7 @@
         </p>
     </main>
     <!-- Work experience -->
-    <h2 class="center card-title text-white shadow-drop mb-1">Works</h2>
+    <h2 class="center card-title text-white shadow-drop mb-0">Works</h2>
     <div class="row row-cols-1 row-cols-md-4 g-5 center-around mb-5" style="margin: 0px;">
         <div class="col shadow-content">
             <div class="card h-100">
@@ -86,7 +86,7 @@
     <div class="card mb-5 shadow-content" style="max-width: 540px; margin: auto;">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="./img/1ecf7375-9cc9-4b3d-ba9a-c1cdcab267b5-1637340507739.png" class="figure-img img-fluid rounded-start" alt="Escola de Programaçao">
+                <img src="./img/1ecf7375-9cc9-4b3d-ba9a-c1cdcab267b5-1637340507739.png" class="figure-img img-fluid rounded-start" style="margin-bottom: 0px;" alt="Escola de Programaçao">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -101,15 +101,15 @@
     <h2 class="center card-title text-white shadow-drop mb-3">Web Technologies</h2>
     <div class="center-around mb-5">
         <span>
-            <i class="shadow-icons fab fa-html5"></i>
+            <i class="shadow-icons icons fab fa-html5"></i>
             <p class="text-center text-white shadow-drop mb-3">HTML</p>
         </span>
         <span>
-            <i class="shadow-icons fab fa-css3-alt"></i>
+            <i class="shadow-icons icons fab fa-css3-alt"></i>
             <p class="text-center text-white shadow-drop mb-3">CSS</p>
         </span>
         <span>
-            <i class="shadow-icons fab fa-js-square"></i>
+            <i class="shadow-icons icons fab fa-js-square"></i>
             <p class="text-center text-white shadow-drop mb-3">JavaScript</p>
         </span>
     </div>
@@ -117,27 +117,27 @@
     <h2 class="center card-title text-white shadow-drop mb-3">Tools</h2>
     <div class="center-around mb-5">
         <span>
-            <i class="shadow-icons fab bi bi-bootstrap-fill"></i>
+            <i class="shadow-icons icons fab bi bi-bootstrap-fill"></i>
             <p class="text-center text-white shadow-drop mb-3">Bootstrap</p>
         </span>
         <span>
-            <i class="shadow-icons fab fa-github"></i>
+            <i class="shadow-icons icons fab fa-github"></i>
             <p class="text-center text-white shadow-drop mb-3">GitHub</p>
         </span>
         <span>
-            <i class="shadow-icons fab fas fa-laptop-code"></i>
+            <i class="shadow-icons icons fab fas fa-laptop-code"></i>
             <p class="text-center text-white shadow-drop mb-3">VSCode</p>
         </span>
         <span>
-            <i class="shadow-icons fab fa-linux"></i>
+            <i class="shadow-icons icons fab fa-linux"></i>
             <p class="text-center text-white shadow-drop mb-3">Linux</p>
         </span>
         <span>
-            <i class="shadow-icons fab fas fa-sticky-note"></i>
+            <i class="shadow-icons icons fab fas fa-sticky-note"></i>
             <p class="text-center text-white shadow-drop mb-3">Notion</p>
         </span>
         <span>
-            <i class="shadow-icons fab fas fa-file-code"></i>
+            <i class="shadow-icons icons fab fas fa-file-code"></i>
             <p class="text-center text-white shadow-drop mb-3">Semantic UI</p>
         </span>
     </div>
@@ -180,7 +180,7 @@
     </div>
     <!-- Contact -->
     <h2 class="center card-title text-white shadow-drop mb-2">Contact</h2>
-    <form class="shadow-content container-sm form mb-5">
+    <form class="shadow-content container-md form mb-5">
         <div class="ui stacked segment">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Your name">
@@ -203,18 +203,28 @@
                 <label class="form-check-label" for="inlineCheckbox3">Others</label>
             </div>
             <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;"></textarea>
                 <label for="floatingTextarea2">Resume about the project</label>
             </div>
             <button type="submit" class="btn btn-outline-primary">Submit</button>
         </div>
     </form>
-
-    </div>
     <!-- Footer -->
-    <footer>
-        
-    </footer>
+    <div class="bottom-0 container-fluid shadow p-1 bg-body">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                </a>
+                <span class="text-muted">© 2022 developer website portfolio, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="#" class="text-muted m-3"><i class="social fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    
     <script src="jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
 </body>
