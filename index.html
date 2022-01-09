@@ -190,30 +190,30 @@
     </div>
     <!-- Contact -->
     <h2 class="center card-title text-white shadow-drop mb-2" id="contact">Contact</h2>
-    <form class="shadow-content container-md form mb-5">
+    <form action="https://formsubmit.co/jcabral304@gmail.com" method="POST" class="shadow-content container-md form mb-5">
         <div class="ui stacked segment">
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Your name">
+                <input type="text" class="form-control" id="floatingInput" name="Name" placeholder="Your name" required>
                 <label for="floatingInput">Your name</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="email" class="form-control" id="floatingInput" name="E-mail" placeholder="name@example.com" required>
                 <label for="floatingInput">Email address</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="mobile">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="Job" value="mobile">
                 <label class="form-check-label" for="inlineCheckbox1">For App Mobile</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="web-site">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="Job" value="web-site">
                 <label class="form-check-label" for="inlineCheckbox2">For Web Site</label>
             </div>
             <div class="form-check form-check-inline mb-3">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="outhers">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="Job" value="outhers">
                 <label class="form-check-label" for="inlineCheckbox3">Others</label>
             </div>
             <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" name="Resume about the project" style="height: 100px;"></textarea>
                 <label for="floatingTextarea2">Resume about the project</label>
             </div>
             <button type="submit" class="btn btn-outline-primary">Submit</button>
