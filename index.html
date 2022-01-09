@@ -16,33 +16,43 @@
 <body>
     <!-- Header Nav BAr -->
     <header class="sticky-top">
-        <nav class="navbar justify-content-center navbar-light">
-            <div class="container-fluid shadow p-2 bg-body rounded">
+        <div class="collapse shadow justify-content-center" id="contentToggle">
+            <div class="bg-dark p-4">
                 <div class="container">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
+                            <a href="#Home" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Works</a>
+                            <a href="#works" class="nav-link">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Web Technologies & Tools</a>
+                            <a href="#education" class="nav-link">Education</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About me</a>
+                            <a href="#webTechnologies&Tools" class="nav-link">Web Technologies & Tools</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Let's talk</a>
+                            <a href="#aboutMe" class="nav-link">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link active">Let's talk</a>
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentToggle" aria-controls="contentToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
     </header>
     <!-- Banner -->
     <main class="container-fluid text-white py-5 shadow-drop mb-5">
-        <h1 class="display-4 card-title"> Web Developer Front-End</h1>
+        <h1 class="display-4 card-title" id="Home"> Web Developer Front-End</h1>
         <p class="card-text">
             Lorem ipsum dolor, sit amet consectetur adipisicing
             elit. Repellendus quaerat quos consectetur et similique impedit quae sunt 
@@ -51,7 +61,7 @@
         </p>
     </main>
     <!-- Work experience -->
-    <h2 class="center card-title text-white shadow-drop mb-0">Works</h2>
+    <h2 class="center card-title text-white shadow-drop mb-0" id="works">Works</h2>
     <div class="row row-cols-1 row-cols-md-4 g-5 center-around mb-5" style="margin: 0px;">
         <div class="col shadow-content">
             <div class="card h-100">
@@ -82,7 +92,7 @@
         </div>
     </div>
     <!-- Education -->
-    <h2 class="center card-title text-white shadow-drop mb-3">Education</h2>
+    <h2 class="center card-title text-white shadow-drop mb-3" id="education">Education</h2>
     <div class="card mb-5 shadow-content" style="max-width: 540px; margin: auto;">
         <div class="row g-0">
             <div class="col-md-4">
@@ -98,7 +108,7 @@
         </div>
     </div>
     <!-- Skills -->
-    <h2 class="center card-title text-white shadow-drop mb-3">Web Technologies</h2>
+    <h2 class="center card-title text-white shadow-drop mb-3" id="webTechnologies&Tools">Web Technologies</h2>
     <div class="center-around mb-5">
         <span>
             <i class="shadow-icons icons fab fa-html5"></i>
@@ -142,7 +152,7 @@
         </span>
     </div>
     <!-- About me -->
-    <h2 class="center card-title text-white shadow-drop mb-1">About me</h2>
+    <h2 class="center card-title text-white shadow-drop mb-1" id="aboutMe">About me</h2>
     <div class="mb-5 text-white blockquot shadow-drop ms-5 mb-5">
         <h3 class="text-start card-title blockquot ">Who am i ?</h3>
         <p class="card-text blockquot  ms-3 me-3 mb-4">
@@ -179,7 +189,7 @@
         </p>
     </div>
     <!-- Contact -->
-    <h2 class="center card-title text-white shadow-drop mb-2">Contact</h2>
+    <h2 class="center card-title text-white shadow-drop mb-2" id="contact">Contact</h2>
     <form class="shadow-content container-md form mb-5">
         <div class="ui stacked segment">
             <div class="form-floating mb-3">
