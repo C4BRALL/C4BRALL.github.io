@@ -60,3 +60,7 @@ body {
 .card > row > col-md-4 img:nth-child(1) {
     flex-grow: 1;
 }
+
+.card-img-top {
+    max-height: 65%;
+}
