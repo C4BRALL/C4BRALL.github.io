@@ -1,0 +1,23 @@
+{
+  "name": "c4brall.github.io",
+  "version": "1.0.0",
+  "description": "<a href=\"https://C4BRALL.github.io/\">C4BRALL.github.io</a>",
+  "main": "bootstrap.min.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4BRALL/C4BRALL.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C4BRALL/C4BRALL.github.io/issues"
+  },
+  "homepage": "https://github.com/C4BRALL/C4BRALL.github.io#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
