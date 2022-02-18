@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Index from './components/Navbar';
 
 function App() {
   return (
-    <div></div>
+    <>
+    <Index />
+    </>
   );
 }
 
