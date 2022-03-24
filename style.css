@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: rgba(255, 251, 252, alpha);
     background-image: url(./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
     background-repeat: no-repeat;
@@ -38,6 +39,13 @@ body {
 
 .social {
     font-size: 28px;
+=======
+  margin: 0px;
+  display: inline;
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+>>>>>>> portfolio-load
 }
 
 .shadow-icons {
