@@ -1,74 +1,7 @@
 body {
-<<<<<<< HEAD
-    background-color: rgba(255, 251, 252, alpha);
-    background-image: url(./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(6px);
-}
-
-.shadow-drop {
-    text-shadow: 1px 2px 3px #000000;
-}
-
-.shadow-content {
-    padding: 0px;
-    border-radius: 4px;
-    box-shadow: 1px 1px 15px 1px black;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.center-around {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.icons {
-    font-size: 3em;
-    color: transparent;
-    background: linear-gradient(to left,#000000, #0082c8, #0082c8, #667db6);
-    -webkit-background-clip: text;
-}
-
-.social {
-    font-size: 28px;
-=======
   margin: 0px;
   display: inline;
   position: relative;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
->>>>>>> portfolio-load
-}
-
-.shadow-icons {
-    /* background-color: white; */
-    padding: 23px;
-    margin: 0px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
-}
-
-.container-box {
-    background-position: center;
-    display: flex;
-    width: 480px;
-    height: 480px;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
-}
-
-.card > row > col-md-4 img:nth-child(1) {
-    flex-grow: 1;
-}
-
-.card-img-top {
-    max-height: 65%;
 }
