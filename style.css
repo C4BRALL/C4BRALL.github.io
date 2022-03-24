@@ -1,45 +1,7 @@
 body {
-    background-color: rgba(255, 251, 252, alpha);
-    background-image: url(./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(4px);
-}
-
-.shadow-drop {
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.shadow-content {
-    padding: 0px;
-    border-radius: 4px;
-    box-shadow: 1px 1px 9px 2px black;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.center-around {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.fab {
-    font-size: 4em;
-    color: transparent;
-    background: linear-gradient(to left, #0082c8, #0082c8, #667db6);
-    -webkit-background-clip: text;
-}
-
-.shadow-icons {
-    background-color: white;
-    padding: 20px;
-    margin: 0px;
-    border-radius: 100%;
-    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+  margin: 0px;
+  display: inline;
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
